@@ -22,10 +22,10 @@ import (
  */
 
 // SignalToSignalTimeout is the maximum time between signals
-var SignalToSignalTimeout = 2 * time.Second
+var SignalToSignalTimeout = 30 * time.Second
 
 // FromFirstSignalTimeout is the maximum time to receive all signals
-var FromFirstSignalTimeout = 5 * time.Second
+var FromFirstSignalTimeout = 60 * time.Second
 
 type AwaitSignals struct {
 	FirstSignalTime time.Time
