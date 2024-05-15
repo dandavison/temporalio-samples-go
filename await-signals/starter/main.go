@@ -44,7 +44,7 @@ func main() {
 			log.Fatalln("Unable to signals workflow", err)
 		}
 		log.Println("Sent " + signalName)
-		time.Sleep(2 * time.Second)
+		time.Sleep(1 * time.Second)
 	}
 
 }
